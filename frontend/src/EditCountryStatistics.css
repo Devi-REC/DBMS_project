@@ -1,0 +1,78 @@
+/* Container for the whole page */
+.d-flex {
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Container for the form */
+.table-container {
+    background-color: #222;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.table-cont h2 {
+    color: #09ee09;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: #333;
+    color: #fff;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #09ee09;
+    outline: none;
+}
+
+/* Button styles */
+.btn-primary {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #09ee09;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #09ee09;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #09ee09;
+    color: #000;
+    border-color: #08cc08;
+}
+
+.btn-primary:active {
+    background-color: rgba(9, 238, 9, 0.5);
+    color: #000;
+}

@@ -1,0 +1,36 @@
+.header-container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.header {
+    width: 100%;
+    padding: 20px 30px;
+}
+
+.header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.header nav ul li a:hover {
+    color: #6d946d;
+}
+
+.header nav ul li a.active {
+    color: #09ee09; /* Change color for the active link */
+}

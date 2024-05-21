@@ -1,0 +1,117 @@
+/* Ensure the entire body and html have a black background and full height */
+html, body {
+    height: 100%;
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+.container {
+    padding-top: 20px; /* Add padding to the top */
+    padding-bottom: 20px; /* Add padding to the bottom */
+}
+
+.form-group option {
+    background-color: black; /* Background color of options */
+    color: white; /* Text color of options */
+    padding: 30px; /* Padding inside options */
+}
+.table-container {
+    height: 400px; /* Set the desired height */
+    overflow: auto; /* Enable scrolling */
+}
+
+.table-scroll {
+    overflow: auto;
+}
+.form-group select:hover {
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.form-group option:hover {
+    background-color: #09ee09; /* Background color of options on hover */
+    color: black; /* Text color of options on hover */
+}
+
+.create-form-container,
+.edit-form-container {
+    margin-top: 20px; /* Add margin to the top */
+}
+
+.d-flex {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-container {
+    background-color: #222;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.table-cont h2, .table-cont h1 {
+    color: #09ee09;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.table-dark {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 0;
+}
+
+.table-dark th,
+.table-dark td {
+    padding: 12px 15px;
+    border: 1px solid #444;
+}
+
+.table-dark th {
+    background-color: #333;
+}
+
+.table-dark td {
+    background-color: #222;
+    transition: background-color 0.3s ease;
+}
+
+.table-dark tr:hover td {
+    background-color: rgba(9, 238, 9, 0.1); /* Transparent hover effect */
+}
+
+.btn-outline-light {
+    padding: 10px;
+    border: 1px solid #09ee09;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #09ee09;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-outline-light:hover {
+    background-color: rgba(9, 238, 9, 0.1); /* Transparent hover effect */
+    color: #09ee09;
+}
+
+.btn-outline-light:active {
+    background-color: rgba(9, 238, 9, 0.3);
+    color: #000;
+}
+
+.btn-outline-light.blue {
+    border-color: blue;
+}
+
+.btn-outline-light.red {
+    border-color: red;
+}

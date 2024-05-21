@@ -1,64 +1,73 @@
-/* Home.css */
-.body{
-  background-color: #444;
-}
-.table-container {
-    
-    margin-top: 20px; 
-    max-width: 1200px;
-    padding-left: 17%;
-    padding-top: 5%;
-    align-items: center;/* Adjust the top margin as needed */
-  }
-  .table-cont{
-    background-color: black;
-  }
-  /* Home.css */
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
-.custom-table {
-    background-color: black;
-    color: white;
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
-  
-  .table {
-    border: 2px solid #09ee09; /* Add border to the table */
-    border-collapse: collapse; /* Collapse border spacing */
-  }
-  
-  .table th,
-  .table td {
-    padding: 10px; /* Adjust cell padding */
-  }
- /* Home.css or your custom CSS file */
-
-.custom-input {
-  color: rgba(196, 185, 184, 0.619);
-  background-color: rgba(255, 255, 255, 0.047);
-  border-radius: 0;
-  border-width: 0;
-  border: 1px solid #444;
-  box-shadow: none;
-  transition: border-color 0.3s, box-shadow 0.3s;
-  transition: background-color 0.3s;
-  
-}
-.custom-input:focus[type='text']:focus {
-  background-color: rgba(231, 215, 212, 0.1);
+.home-page {
+  background-image: url('./assets/world_gif.gif'); /* Ensure the path is correct */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: down;
+  flex-direction: column;
+  justify-content: space-between; /* To space out the header and footer */
+  font-family: Arial, sans-serif;
+  color: #fff;
+  width: 100%;
+  height: auto;
+  display: block; /* This ensures the background image stays fixed while scrolling */
 }
 
-.custom-input:focus {
-  background-color: rgba(208, 13, 120, 0.1); /* Adjust the alpha channel for focus */
+.con {
+  padding: 20px;
+  margin-bottom: 20px;
+  z-index: 1; /* Ensure the header is above the background image */
 }
-.custom-input:hover {
-  border-color: #666;
-  color: #66666663;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-}
-.conts{
-  border: 2px solid #dc9418;
-} 
 
-.btn-outline-light:hover {
-  background-color: rgba(255, 255, 255, 0.2); /* Light transparent color */
+.content {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the start (top) */
+  padding: 20px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  z-index: 1; /* Ensure the content is above the background image */
+  margin-top: 60px; /* Adjust this value to position the h1 */
+}
+
+h1 {
+  color: #09ee09;
+  font-weight: bold;
+  /* Semi-transparent background for better readability */
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0;
+}
+
+.footer {
+  padding: 500px;
+  width: 100%;
+  text-align: end;
+  /* Ensure the footer is above the background image */
+}
+
+.end {
+  text-align: center;
+}
+
+/* Animated Heading */
+.animated-heading {
+  font-family: 'Righteous', cursive;
+  color: #09ee09;
+  font-size: 3em; /* Increase the font size */
+  animation: fadeInOut 1s infinite;
+}
+
+/* Keyframes for heading animation */
+@keyframes fadeInOut {
+  0%, 100% { opacity: 0; transform: translateY(-20px); }
+  50% { opacity: 1; transform: translateY(0); }
 }

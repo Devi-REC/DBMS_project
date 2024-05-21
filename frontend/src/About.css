@@ -1,0 +1,182 @@
+.about-container {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #09ee09;
+    border-radius: 10px;
+    background-color: #000000;
+    margin-top: 100px;
+    
+  }
+  h1{
+    font-weight: bold;
+  }
+  .para{
+    font-size: larger;
+    font-weight:bold;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  .about-container h1 {
+    color: #09ee09;
+  }
+  
+  .about-container h2 {
+    color: #09ee09;
+    margin-top: 20px;
+  }
+  
+  .about-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .about-container ul li {
+    margin-bottom: 10px;
+  }
+  
+  .about-container p {
+    margin: 10px 0;
+  }
+  /* Existing styles... */
+
+.p1 {
+  border: 1px solid #09ee09;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 360px;
+  padding-left: 25px;
+  width: 750px;
+  padding: 12px 16px;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.p1:hover {
+  transform: scale(1.05);
+}
+
+.p1.expanded {
+  transform: scale(1.1);
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Other styles... */
+/* Existing styles... */
+
+/* Entrance animations */
+.animate__animated {
+  animation-duration: 1s;
+}
+
+.animate__fadeIn {
+  animation-name: fadeIn;
+}
+
+.animate__fadeInDown {
+  animation-name: fadeInDown;
+}
+
+.animate__fadeInUp {
+  animation-name: fadeInUp;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Hover effects */
+.p1:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Other styles... */
+/* Existing styles... */
+
+/* Entrance animations */
+.animate__animated {
+  animation-duration: 1s;
+}
+
+.animate__fadeIn {
+  animation-name: fadeIn;
+}
+
+.animate__fadeInDown {
+  animation-name: fadeInDown;
+}
+
+.animate__fadeInUp {
+  animation-name: fadeInUp;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Hover effects */
+.p1:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Other styles... */
